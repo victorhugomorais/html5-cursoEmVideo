@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML</title>
+</head>
+<body>
+    
+<h1>Inserindo videos hospedados localmente</h1>
+<p>Este video este hospedado no meu próprio servidor</p>
+<h3>Estes videos a seguir foram inseridos com a tag: video + ENTER, mais os parametros width(w+ENTER), height(h+ENTER) e controls: que coloca o botão de play no video. </h3>
+<video src="midia/videoPoshandBrake.webm" width="500" height="500" controls poster="imagens/paint-de-poster.png" loop></video>
+<video src="midia/production ID_5007874.mp4" height="500" width="500" controls></video>
+<video src="midia/videoPoshandBrake.m4v" height="500" width="500" controls poster="imagens/paint-de-poster.png"></video>
+
+<h3>Estes videos a seguir foram inseridos usando a tag video, e dentro desta tag: source:src, mais os parametros type="video/formato do video" </h3>
+<!-- sempre bom colocar diferentes formatos de arquivo, para que rode no máximo de navegadores diferentes-->
+<video width="600" height="600" poster="imagens/paint-de-poster.png" controls>
+    <source src="midia/production ID_5007874.mp4" type="video/mp4">
+    <source src="midia/videoPoshandBrake.m4v" type="video/m4v" >
+    <source src="midia/videoPoshandBrake.webm" type="video/webm">
+    <p>Se não apareceu nenhum video após o ultimo paragrafo, seu navegador não roda os video :( </p>
+</video>
+
+</body>
+</html>

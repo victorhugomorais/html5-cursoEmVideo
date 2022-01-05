@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+    <!-- Aplicando CSS em todas as TAG, por exemplo, para tag MARK, -->
+    <style>
+        mark{
+            background-color: lime;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito/Destaque</h2>
+
+    <p>Nesse texto temos um <b>termo em negrito </b> usando a tag B(não semântica) </p>
+
+    <p>Nesta frase tenho <strong>termo em destaque</strong> usando a tag STRONG(semântica).</p>
+
+    <h2>Itálico/Enfase</h2>
+    <p>Nesta frase temos um <i>termo em italico</i> usando a tag I(não semântica)</p>
+
+    <p>Nesta frase temos um <em>termo em enfase</em> usando a tag EM(semântica)</p>
+
+
+    <!-- Para alterar a cor do marca texto(padrão amarelo), usaremos CSS, como?
+    Simples, Na tag que queremos aplicar o CSS escreveremos "style" após dar um espaçamento, nisso, podemos mudar as características CSS da tag desejada, neste caso a seguir, da tag MARK-->
+    <p>Podemos também criar <mark style="background-color: rgb(0, 255, 0);">um texto marcado</mark>(como um marca texto) usando a tag MARK</p>
+
+    <!-- COmo podemos ver, o CSS do MARK acima não foi aplicado aqui, para que apliquemos sempre uma configuração a uma TAG, como por exemplo: todo MARK sem da cor verde, devemos especificar no cabeçalho <head>, veja lá em cima-->
+    <p>E no outro paragrafo temos <mark>outro texto marcado</mark> no final</p>
+
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando <big>um texto grande</big> e <small>um texto pequeno</small> nesse parágrafo</p>
+
+    <h2>Texto deletado </h2>
+<p>Podemos marcar <del>um texto como excluido para indicar que ele deve ser lido</del>, mas nao considerado</p>
+
+<h2>Texto inserido</h2>
+<p>Podemos marcar <ins>um texto como inserido para dar enfase</ins> e indicar que ele foi adicionado depois com a tag INS</p>
+
+<h2>Texto subescrito</h2>
+<p>Para inserir coisas do tipo x<sup>2</sup>0 + 3</p>
+
+<h2>Texto sobrescrito</h2>
+<p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+
+<tt></tt>
+<aside>oioioioi</aside>
+</body>
+</html>
